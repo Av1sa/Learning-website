@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/normalize.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./pages/index.css">
     <title>Learning how to learn</title>
 </head>
 <body>
-    <div class="page">
+    <div class="root">
         <header class="header">
             <img class="logo logo_place_header" src="./images/logo.png" alt="Yandex Logo">
             <h1 class="header__title">Learning how to learn</h1>
@@ -21,6 +20,7 @@
         </header>
         
         <main class="content">
+
             <section class="description">
                 <div class="two-columns">
                     <h3 class="two-columns__brief">The main problem with education</h3>
@@ -37,7 +37,68 @@
                     </div>
                 </div>
             </section>
-            
+
+            <section class="techniques">
+                <h2 class="section-title">Learning Techniques</h2>
+                <p class="section-subtitle">Five Strategies from Barbara Oakley</p>
+                <ul class="cards">
+                    <li class="cards__item">
+                        <img src="./images/attention.png" alt="Card Image: Attention" class="cards__image">
+                        <h3 class="cards__title">Two Ways of Thinking</h3>
+                        <p class="cards__description">Deep understanding comes from being able to toggle back and forth between focused and diffused thinking.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img src="./images/recall.png" alt="Card Image: Recall" class="cards__image">
+                        <h3 class="cards__title">Recall</h3>
+                        <p class="cards__description">Improving your ability to remember key bits of information help to connect different part of the brain.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img src="./images/interliving.png" alt="Card Image: Interleaving" class="cards__image">
+                        <h3 class="cards__title">Interleaving</h3>
+                        <p class="cards__description">When you learn multiple skills at the same time, they reinforce each other.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img src="./images/question.png" alt="Card Image: Questions" class="cards__image">
+                        <h3 class="cards__title">Questions</h3>
+                        <p class="cards__description">When listening to your teacher, think up a good question, something that you're really itching to know.</p>
+                    </li>
+                    <li class="cards__item">
+                        <img src="./images/competence.png" alt="Card Image: Illusion of Competence" class="cards__image">
+                        <h3 class="cards__title">Illusion of Competence</h3>
+                        <p class="cards__description">Test yourself, write it down, tell other people, and repeat the process in different settings. Only then can you be truly certain you've understood something.</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="video">
+                <h2 class="section-title">TED talks</h2>
+                <p class="section-subtitle">For lovers of procrastination</p>
+                <div class="video__iframes">
+                    <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" class="video__iframe"></iframe>
+                    <iframe src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" class="video__iframe"></iframe>
+                </div>
+            </section>
+
+            <section class="oakley">
+                <div class="two-columns">
+                    <h3 class="two-columns__brief">Barbara Oakley’s story.</h3>
+                    <p class="two-columns__main-text two-columns__paragraph">Math didn't come naturally to Barbara in childhood. She thought of herself as more of a 
+                        humanities person, and not a brilliant one at that. With an eye to becoming a linguist, after 
+                        school she enlisted in the army, who sent her to learn Russian. After several years of service, 
+                        during which she rose to the rank of Captain, Barbara left the army and decided to study 
+                        engineering. In was during this time that she developed her learning methodology as she was 
+                        forced to reprogram her brain for a different kind of learning. It turns out that when something 
+                        doesn't come naturally to you, having to work hard to gain the knowledge that other people 
+                        may get at first glance gives you a deeper, more comprehensive understanding of the subject matter.</p>
+                </div>
+            </section>
+
+             <section class="feynman">
+                <h2 class="feynman__title">The Feynman Technique</h2>
+                <p class="feynman__subtitle">Learn without forgetting.</p>
+                <a href=# class="feynman__link">More &rarr;</a>
+            </section> 
+
             <section class="digits">
                 <h2 class="section-title">Facts and figures</h2>
                 <p class="section-subtitle">On learning and the brain</p>
@@ -79,11 +140,22 @@
                 </ul>
             </section> 
 
-             <section class="feynman">
-                <h2 class="feynman__title">The Feynman Technique</h2>
-                <p class="feynman__subtitle">Learn without forgetting.</p>
-                <a href=# class="feynman__link">More &rarr;</a>
-            </section> 
+            <section class="khan">
+                <div class="khan__container">
+                    <h3 class="khan__author">Salman Khan</h3>
+                    <h2 class="khan__title">The One World Schoolhouse</h2>
+                    <p class="khan__quote">Sal Khan's passion and innovation is transforming learning for millions of 
+                        students worldwide. The One World Schoolhouse is a must-read for all 
+                        who are committed to improving education so students everywhere can 
+                        gain the skills and knowledge to be successful in school, careers and life.</p>
+                    <p class="khan__quote-author">George Lucas</p>
+                    <p class="khan__quote-author-subline">Filmmaker</p>
+                    <div class="khan__book-container">
+                        <div class="khan__book-pic" title="Book Pic"></div>
+                        <a href="#" class="khan__buy-link">Buy book &rarr;</a>
+                    </div>
+                </div>
+            </section>
             
             <section class="kaufman">
                 <h2 class="section-title section-title_theme_dark">Ten principles of rapid skill acquisition</h2>
@@ -132,6 +204,18 @@
                     </ol> 
                     <img class="kaufman__triangle" src="./images/triangle.svg" alt="Decorative Element: Blue Triangle">                  
             </section> 
+
+            <section class="resources">
+                <h2 class="section-title">Useful resources</h2>
+                <p class="section-subtitle">Further materials on learning techniques and hacks.</p>
+                <div class="resources__logo-zone">
+                    <img src="./images/logo/tedED.png" alt="TedEd Logo" class="resources__logo">
+                    <img src="./images/logo/Medium.png" alt="Medium Logo" class="resources__logo">
+                    <img src="./images/logo/dezeen.png" alt="DeZeen Logo" class="resources__logo">
+                    <img src="./images/logo/goodreads.png" alt="GoodReads Logo" class="resources__logo">
+                </div>
+            </section>
+
         </main>
 
         <footer class="footer">
