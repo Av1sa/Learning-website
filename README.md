@@ -1,6 +1,7 @@
 # Yandex Practicum Web Project #
 
-This project is created as practice for the Yandex Practicum Web Developer course.  
-Stack: HTML, CSS
+A practice project for the Yandex Practicum Web Developer course.  
+
+Stack: HTML, CSS (BEM methodology)
 
 
