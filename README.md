@@ -1,4 +1,4 @@
-# Website: Learning #
+# Website: Learning how to learn#
 
 A practice project for the Yandex Practicum Web Developer course.  
 
