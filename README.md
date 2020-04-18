@@ -1,4 +1,4 @@
-# Yandex Practicum Web Project #
+# Website: Learning #
 
 A practice project for the Yandex Practicum Web Developer course.  
 
